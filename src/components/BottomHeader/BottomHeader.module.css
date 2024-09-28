@@ -1,0 +1,19 @@
+.BottomHeader {
+     background-color: rgb(33, 37, 41);
+     color: white;
+     text-align: center;
+     padding-top: 50px;
+     padding-bottom: 50px;
+}
+
+.welcome_para {
+     font-size: 2rem;
+     font-weight: 900;
+}
+
+.buy_para {
+     font-size: 1.4rem;
+     font-weight: 400;
+     color: rgba(255, 255, 255, 0.5);
+     line-height: 2.5rem;
+}

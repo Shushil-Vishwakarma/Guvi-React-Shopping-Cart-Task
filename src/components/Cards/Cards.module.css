@@ -1,0 +1,65 @@
+/* Cards.module.css */
+
+.main_card_div {
+     padding: 20px;
+     margin: 0 auto;
+     width: 70%;
+}
+
+.card_container {
+     display: grid;
+     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+     gap: 20px;
+     margin: 20px;
+}
+
+.card {
+     border-radius: 5px;
+     text-align: center;
+     background-color: #ffffff;
+     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+     height: auto !important;
+     padding-bottom: 2rem;
+}
+
+.card_image {
+     border-top-left-radius: 5px;
+     border-top-right-radius: 5px;
+     width: 100%;
+     height: 150px;
+     object-fit: cover;
+     margin-bottom: 10px;
+}
+
+.card h2 {
+     margin: 10px 0;
+}
+
+.card p {
+     margin: 10px 0;
+}
+
+.cart_button {
+     margin: auto !important;
+     display: flex;
+     align-items: center;
+     gap: 8px;
+     padding: 6px 12px;
+     border: 0.8px solid black;
+     border-radius: 6px;
+     font-size: 0.9rem;
+     transition: background-color 0.3s, color 0.3s, cursor 0.3s ease-in-out;
+}
+
+.cart_button:hover {
+     background-color: black;
+     color: white;
+     cursor: pointer;
+}
+
+span {
+     background-color: black;
+     color: white;
+     padding: 4px 8px;
+     border-radius: 100%;
+}
